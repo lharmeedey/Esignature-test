@@ -1,0 +1,166 @@
+.content {
+    flex-grow: 1;
+    //   padding: 1rem;
+    overflow-y: auto;
+    background-color: #F5F5F5;
+  }
+.navbar{
+    background: #FFFFFF;
+  
+  }
+  .profile-name-container {
+    display: flex;
+    flex-direction: column;
+    //   align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+  }
+  .profile-name {
+    font-family: Source Sans Pro;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .greetings {
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    font-weight: 400;
+    // line-height: 18.86px;
+    text-align: left;
+  }
+  .card-edit {
+    width: 15%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+  }
+  .first-section {
+    background-color: #edf3ff;
+    border-radius: 50%;
+    display: flex;
+  }
+  .upload-card {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #6c757d;
+    background-color: #ffffff;
+    border-radius: 7px;
+  }
+  
+  .upload-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .upload-btn i {
+    font-size: 2rem;
+    color: #6c757d;
+  }
+  .upload-text-one {
+    padding-top: 15px;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.6px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #171717;
+  }
+  .upload-text-two {
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #454745;
+  }
+  .btn-edit {
+    background-color: #eaf4ff;
+    color: #0265dc;
+  }
+  .card-sm-text {
+    font-size: 15px;
+    font-weight: 400;
+    color: #8b909a;
+  }
+  .card-bg-text {
+    color: #171717;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .card-text-one{
+    font-family: Source Sans Pro;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18.86px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #171717;
+  
+  }
+  .card-text-two{
+    font-family: Source Sans Pro;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21.75px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #171717;
+  }
+
+  // Icons
+  .mdi--bell-outline {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M10 21h4c0 1.1-.9 2-2 2s-2-.9-2-2m11-2v1H3v-1l2-2v-6c0-3.1 2-5.8 5-6.7V4c0-1.1.9-2 2-2s2 .9 2 2v.3c3 .9 5 3.6 5 6.7v6zm-4-8c0-2.8-2.2-5-5-5s-5 2.2-5 5v7h10z'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    margin-right: 8px;
+    margin-left: 8px;
+    border-left: grey solid 0.5px;
+  }
+  .ei--exclamation {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    font-weight: 600;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 50 50'%3E%3Cpath fill='%23000' d='M25 42c-9.4 0-17-7.6-17-17S15.6 8 25 8s17 7.6 17 17s-7.6 17-17 17m0-32c-8.3 0-15 6.7-15 15s6.7 15 15 15s15-6.7 15-15s-6.7-15-15-15'/%3E%3Cpath fill='%23000' d='M24 32h2v2h-2zm1.6-2h-1.2l-.4-8v-6h2v6z'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    //   padding: 10px;
+  
+    margin-right: 8px;
+  }
+  .ic--sharp-bar-chart {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M4 9h4v11H4zm12 4h4v7h-4zm-6-9h4v16h-4z'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
