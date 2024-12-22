@@ -29,8 +29,8 @@
                 <span class="ic--sharp-bar-chart"></span>
               </div>
               <div class="second-section ms-3">
-                <span style="color: #f0f0f0" class="card-sm-text">Inbox</span>
-                <h5 style="color: #ffffff" class="card-bg-text">15230</h5>
+                <span style="color: #f0f0f0" class="card-sm-text" [ngStyle]="fontStyle('normal', '15px')">Inbox</span>
+                <h5 style="color: #ffffff" class="card-bg-text" [ngStyle]="fontStyle('normal', '20px')">15230</h5>
               </div>
             </div>
           </div>
@@ -42,8 +42,8 @@
                 <span class="ic--sharp-bar-chart"></span>
               </div>
               <div class="second-section ms-3">
-                <span class="card-sm-text">Outbox</span>
-                <h5 class="card-bg-text">526</h5>
+                <span class="card-sm-text" [ngStyle]="fontStyle('normal', '15px')">Outbox</span>
+                <h5 class="card-bg-text" [ngStyle]="fontStyle('normal', '20px')">526</h5>
               </div>
             </div>
           </div>
@@ -55,8 +55,8 @@
                 <span class="ic--sharp-bar-chart"></span>
               </div>
               <div class="second-section ms-3">
-                <span class="card-sm-text">Completed</span>
-                <h5 class="card-bg-text">2563</h5>
+                <span class="card-sm-text" [ngStyle]="fontStyle('normal', '15px')">Completed</span>
+                <h5 class="card-bg-text" [ngStyle]="fontStyle('normal', '20px')">2563</h5>
               </div>
             </div>
           </div>
@@ -68,8 +68,8 @@
                 <span class="ic--sharp-bar-chart"></span>
               </div>
               <div class="second-section ms-3">
-                <span class="card-sm-text">Draft</span>
-                <h5 class="card-bg-text">106</h5>
+                <span class="card-sm-text" [ngStyle]="fontStyle('normal', '15px')">Draft</span>
+                <h5 class="card-bg-text" [ngStyle]="fontStyle('normal', '20px')">106</h5>
               </div>
             </div>
           </div>
@@ -83,10 +83,10 @@
         <div class="upload-card">
           <div class="upload-btn">
             <img src="../assets/icon-upload.png" alt="" />
-            <h5 class="upload-text-one">
+            <h5 class="upload-text-one" [ngStyle]="fontStyle('600', '14px')">
               Add documents using drag and drop or the button below
             </h5>
-            <p class="upload-text-two">
+            <p class="upload-text-two" [ngStyle]="fontStyle('400', '14px')">
               Once added, your document will be displayed here
             </p>
             <button class="btn-edit btn mt-2">
