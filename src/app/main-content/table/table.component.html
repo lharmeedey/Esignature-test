@@ -5,14 +5,14 @@
     <h5>Recent</h5>
     <table class="table">
       <thead>
-        <th class="gap-5 p-6">
+        <th class="gap-5 p-6" [ngStyle]="fontStyle()">
           <input type="checkbox" />
           <span>NAME</span>
         </th>
-        <th>DATE</th>
-        <th>SIGNERS</th>
-        <th>SIZE</th>
-        <th> ACTION</th>
+        <th [ngStyle]="fontStyle()">DATE</th>
+        <th [ngStyle]="fontStyle()">SIGNERS</th>
+        <th [ngStyle]="fontStyle()">SIZE</th>
+        <th [ngStyle]="fontStyle()"> ACTION</th>
       </thead>
       <tbody
           style="
@@ -32,14 +32,33 @@
                   class="me-2"
                 />
                 <div class="pdf-name">
-                  <span class="mt-4">LinkedIn Profile.pdf</span>
-                  <p class="edit-para">PDF</p>
+                  <span class="mt-4" [ngStyle]="fontStyle()">LinkedIn Profile.pdf</span>
+                  <p class="edit-para" [ngStyle]="fontStyle()">PDF</p>
                 </div>
               </div>
             </td>
-            <td class="p-4">Sep 6, 2023 at 2:58pm</td>
-            <td class="p-4">5</td>
-            <td class="p-4">10 MB</td>
+            <td class="p-4" [ngStyle]="fontStyle()">Sep 6, 2023 at 2:58pm</td>
+            <td class="p-4" [ngStyle]="fontStyle()">5</td>
+            <td class="p-4" [ngStyle]="fontStyle()">10 MB</td>
+            <td class="p-4" [ngStyle]="fontStyle()"><i class="bi bi-three-dots"></i></td>
+          </tr>
+          <tr>
+            <td class="p-4">
+              <div class="pdf-container">
+                <img
+                  src="../assets/pdf-image.png"
+                  alt="PDF Thumbnail"
+                  class="me-2"
+                />
+                <div class="pdf-name">
+                  <span class="mt-4" [ngStyle]="fontStyle()">LinkedIn Profile.pdf</span>
+                  <p class="edit-para" [ngStyle]="fontStyle()">PDF</p>
+                </div>
+              </div>
+            </td>
+            <td class="p-4" [ngStyle]="fontStyle()">Sep 6, 2023 at 2:58pm</td>
+            <td class="p-4" [ngStyle]="fontStyle()">5</td>
+            <td class="p-4" [ngStyle]="fontStyle()">10 MB</td>
             <td class="p-4"><i class="bi bi-three-dots"></i></td>
           </tr>
           <tr>
@@ -51,15 +70,15 @@
                   class="me-2"
                 />
                 <div class="pdf-name">
-                  <span class="mt-4">LinkedIn Profile.pdf</span>
-                  <p class="edit-para">PDF</p>
+                  <span class="mt-4" [ngStyle]="fontStyle()">LinkedIn Profile.pdf</span>
+                  <p class="edit-para" [ngStyle]="fontStyle()">PDF</p>
                 </div>
               </div>
             </td>
-            <td class="p-4">Sep 6, 2023 at 2:58pm</td>
-            <td class="p-4">5</td>
-            <td class="p-4">10 MB</td>
-            <td class="p-4"><i class="bi bi-three-dots"></i></td>
+            <td class="p-4" [ngStyle]="fontStyle()">Sep 6, 2023 at 2:58pm</td>
+            <td class="p-4" [ngStyle]="fontStyle()">5</td>
+            <td class="p-4" [ngStyle]="fontStyle()">10 MB</td>
+            <td class="p-4" [ngStyle]="fontStyle()"><i class="bi bi-three-dots"></i></td>
           </tr>
           <tr>
             <td class="p-4">
@@ -70,34 +89,15 @@
                   class="me-2"
                 />
                 <div class="pdf-name">
-                  <span class="mt-4">LinkedIn Profile.pdf</span>
-                  <p class="edit-para">PDF</p>
+                  <span class="mt-4" [ngStyle]="fontStyle()">LinkedIn Profile.pdf</span>
+                  <p class="edit-para" [ngStyle]="fontStyle()">PDF</p>
                 </div>
               </div>
             </td>
-            <td class="p-4">Sep 6, 2023 at 2:58pm</td>
-            <td class="p-4">5</td>
-            <td class="p-4">10 MB</td>
-            <td class="p-4"><i class="bi bi-three-dots"></i></td>
-          </tr>
-          <tr>
-            <td class="p-4">
-              <div class="pdf-container">
-                <img
-                  src="../assets/pdf-image.png"
-                  alt="PDF Thumbnail"
-                  class="me-2"
-                />
-                <div class="pdf-name">
-                  <span class="mt-4">LinkedIn Profile.pdf</span>
-                  <p class="edit-para">PDF</p>
-                </div>
-              </div>
-            </td>
-            <td class="p-4">Sep 6, 2023 at 2:58pm</td>
-            <td class="p-4">5</td>
-            <td class="p-4">10 MB</td>
-            <td class="p-4"><i class="bi bi-three-dots"></i></td>
+            <td class="p-4" [ngStyle]="fontStyle()">Sep 6, 2023 at 2:58pm</td>
+            <td class="p-4" [ngStyle]="fontStyle()">5</td>
+            <td class="p-4" [ngStyle]="fontStyle()">10 MB</td>
+            <td class="p-4" [ngStyle]="fontStyle()"><i class="bi bi-three-dots"></i></td>
           </tr>
         </tbody>
     </table>
